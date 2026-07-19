@@ -14,7 +14,9 @@
     "typecheck": "pnpm -r typecheck"
   },
   "devDependencies": {
-    "typescript": "catalog:"
+    "@eslint/js": "catalog:",
+    "typescript": "catalog:",
+    "typescript-eslint": "catalog:"
   },
   "packageManager": "pnpm@10.34.5"
 }

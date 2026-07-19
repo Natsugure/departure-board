@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.29.7",
-    "@eslint/js": "10.0.1",
+    "@eslint/js": "catalog:",
     "@rolldown/plugin-babel": "0.2.3",
     "@types/babel__core": "7.20.5",
     "@types/node": "catalog:",
@@ -23,12 +23,12 @@
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "6.0.3",
     "babel-plugin-react-compiler": "1.0.0",
-    "eslint": "10.6.0",
+    "eslint": "catalog:",
     "eslint-plugin-react-hooks": "7.1.1",
     "eslint-plugin-react-refresh": "0.5.3",
-    "globals": "^17.7.0",
+    "globals": "catalog:",
     "typescript": "catalog:",
-    "typescript-eslint": "8.62.0",
+    "typescript-eslint": "catalog:",
     "vite": "8.1.1"
   }
 }

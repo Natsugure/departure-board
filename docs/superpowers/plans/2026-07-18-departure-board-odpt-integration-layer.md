@@ -1,6 +1,6 @@
 # Departure Board: ODPT Integration Layer (Phase 1) Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Build the server-side data layer that turns ODPT's JSON-LD APIs (station timetable + real-time train status) into a `GET /departures?offset=0-30` endpoint returning the next 2 trains from 赤羽駅3番線（上野東京ライン, JU04）with scheduled time, delay, train type, destination, and car composition.
 

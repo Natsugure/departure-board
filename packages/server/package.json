@@ -4,15 +4,24 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "inspect:odpt": "tsx src/odpt/inspectJsonEndpoints.ts"
   },
   "dependencies": {
+    "@holiday-jp/holiday_jp": "^2.5.1",
     "@hono/node-server": "^2.0.10",
     "hono": "^4.12.30"
   },
   "devDependencies": {
-    "@types/node": "^26.1.1",
-    "tsx": "^4.23.0",
-    "typescript": "^7.0.2"
+    "@eslint/js": "catalog:",
+    "@types/node": "catalog:",
+    "eslint": "catalog:",
+    "globals": "catalog:",
+    "tsx": "4.23.0",
+    "typescript": "catalog:",
+    "typescript-eslint": "catalog:",
+    "vitest": "4.1.10"
   }
 }

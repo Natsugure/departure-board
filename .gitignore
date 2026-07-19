@@ -145,3 +145,4 @@ vite.config.ts.timestamp-*
 
 ## local settings
 **.local.json
+.vscode/

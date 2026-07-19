@@ -4,9 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev:server": "pnpm --filter server dev",
-    "dev:client": "pnpm --filter client dev",
-    "dev": "pnpm run --parallel --filter server --filter client dev",
+    "dev:server": "pnpm --filter departure-board-server dev",
+    "dev:client": "pnpm --filter departure-board-client dev",
+    "dev": "pnpm run --parallel --filter departure-board-server --filter departure-board-client dev",
+    "build:server": "pnpm --filter departure-board-server build",
+    "build:client": "pnpm --filter departure-board-client build",
     "build": "pnpm --filter departure-board-server build && pnpm --filter departure-board-ui build",
     "lint": "pnpm -r lint",
     "typecheck": "pnpm -r typecheck"

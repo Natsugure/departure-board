@@ -1,5 +1,5 @@
 {
-  "name": "departure-board-ui",
+  "name": "departure-board-client",
   "private": true,
   "version": "0.0.0",
   "type": "module",
